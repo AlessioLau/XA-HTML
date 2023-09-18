@@ -1,0 +1,37 @@
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+p{
+    margin-right: 2em; 
+}
+
+button {
+    background-color: white;
+    border-radius: 2em;
+    border: 0.1em solid black;
+    padding: 0 1.2em;
+    height: 2.2em;
+    font-size: 1em;
+}
+
+img#navbar-image{
+    height: 4em;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+@media (width >= 2700px){
+    html{
+        font-size: 20px;
+    }
+}
+
+@media (width >= 3200px){
+    html{
+        font-size: 24px;
+    }
+}
